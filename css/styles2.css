@@ -1,0 +1,139 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color:darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card-header h5 {
+    font-weight: bold;
+}
+
+.card-header {
+    background-color:rgba(195, 111, 47, 0.5);
+    text-align: center;
+}
+
+.backBlock h1 {
+    background: rgba(0, 0, 0, 0.7);
+    width:fit-content;
+    color: white;
+}
+
+.backBlock h2 {
+    background: rgba(0, 0, 0, 0.7);
+    width:fit-content;
+    color: white;
+}
+
+
+h2 {
+    color: forestgreen;
+}
+
+header h2 {
+    color: black;
+}
+
+.site-footer {
+    padding: 20px 0;
+}
+
+.jumbotron {
+    /* padding: 30px; */
+    background-image: url(/img/chris-anderson-rhn-r1IHi0I-unsplash.jpg);
+    color: white;
+    margin: 0;
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 150%;
+}
+
+.footerBackSlide {
+    /* padding: 30px; */
+    background-image: url(/img/laurine-bailly-qkMQ5N2d9aY-unsplash.jpg);
+    color: white;
+    margin: 0;
+    min-height: 75vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 75%;
+}
+
+
+@media (max-width: 575.98px) { 
+    .jumbotron {
+        min-height: 100vh;
+    }
+
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    
+      .vertical-bottom {
+        margin: 0;
+        position: absolute;
+        top: 80%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+}
+
+/* 
+@media screen () 
+find bootstrap attribtues for media queries
+50vh when sm and up, 100vh at xs. 
+*/
+
+.overlay {
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(52, 117, 82, 0.1);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+/* .tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+} */
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
